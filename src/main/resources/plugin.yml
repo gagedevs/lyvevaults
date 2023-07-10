@@ -1,0 +1,13 @@
+name: lyvevaults
+version: '${project.version}'
+main: org.lyvesteal.lyvevaults.Main
+api-version: '1.19'
+load: STARTUP
+authors: [kotacrafter]
+description: Private Vaults for Players on Lyvesteal SMP
+website: mc.shuttleontop.tech
+commands:
+  pv:
+    description: Opens your private vault
+    permission: lyvevaults.vault
+    permission-message: You do not have access to this command!
